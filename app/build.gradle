@@ -1,0 +1,25 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.rodrigosambade.quicksettings'
+    compileSdk {
+        version = release(37) { minorApiLevel = 1 }
+    }
+    defaultConfig {
+        applicationId 'com.rodrigosambade.quicksettings'
+        minSdk 26
+        targetSdk 37
+        versionCode 1
+        versionName '1.0'
+
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+}
+
+dependencies {
+
+}
